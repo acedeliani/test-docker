@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: acedeliani/test-docker@v1
+        uses: acedeliani/test-docker
         with:
           who-to-greet: 'Emil the Octocat'
 
